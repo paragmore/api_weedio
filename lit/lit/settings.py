@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'mg!0!)xxr+hqf&l@yg((+-9+-2yo$n^bphf*fnv8ly14q$*gkx'
+SECRET_KEY = '********'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -166,9 +166,9 @@ STATIC_URL = '/static/'
 STATIC_ROOT = 'static'
 
 
-AWS_ACCESS_KEY_ID = 'AKIAXTE7L65MMVB6YC63 '
-AWS_SECRET_ACCESS_KEY = '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'
-AWS_STORAGE_BUCKET_NAME = 'elasticbeanstalk-us-west-2-522172757848'
+AWS_ACCESS_KEY_ID = '******** '
+AWS_SECRET_ACCESS_KEY = '********'
+AWS_STORAGE_BUCKET_NAME = '********'
 
 AWS_S3_FILE_OVERWRITE = False
 AWS_DEFAULT_ACL = None
